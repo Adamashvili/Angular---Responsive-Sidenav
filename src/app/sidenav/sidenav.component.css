@@ -78,6 +78,7 @@
   width: 2rem;
   min-width: 2rem;
   text-align: center;
+  padding: 12px;
 }
 .sidenav-nav .sidenav-nav-item .sidenav-nav-link .sidenav-link-text {
   margin-left: 1.5rem;

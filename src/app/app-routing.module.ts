@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent},
   {path: 'products', component: ProductsComponent},
   {path: 'statistics', component: StatisticsComponent},
-  {path: 'coupes', component: CoupensComponent},
+  {path: 'coupens', component: CoupensComponent},
   {path: 'pages', component: PagesComponent},
   {path: 'media', component: MediaComponent},
   {path: 'settings', component: SettingsComponent},
