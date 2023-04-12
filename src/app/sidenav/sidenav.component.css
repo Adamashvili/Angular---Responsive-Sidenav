@@ -86,4 +86,12 @@
   background-color: #fff;
   color: #000;
 }
+
+.active {
+  background-color: #fff;
+}
+.active .sidenav-link-icon,
+.active .sidenav-link-text {
+  color: #000;
+}
 /*# sourceMappingURL=sidenav.component.css.map */
