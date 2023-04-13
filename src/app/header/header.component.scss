@@ -98,6 +98,7 @@
                         width: 50px;
                         border-radius: 10px;
                         box-shadow: 0 0 15px rgb(35 35 35 / 15%);
+                        cursor: pointer;
                     }
                 }
 
@@ -111,6 +112,7 @@
                     background: #699dfa;
 
                     &.pulse {
+                        animation: pulse-animation  1.2s infinite;
 
                     }
                 }
@@ -130,3 +132,13 @@
     width: calc(100% - 5rem);
     margin-left: 5rem;
 }
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow:  0 0 0 0 rgba(26, 104, 206, 0.6);
+    }
+
+    100% {
+        box-shadow:  0 0 0 13px rgba(17, 64, 126, 0);
+    }
+ }

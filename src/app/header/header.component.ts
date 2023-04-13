@@ -1,5 +1,5 @@
-import { style } from '@angular/animations';
-import { Component, Input, OnInit } from '@angular/core';
+
+import { Component, Input, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -11,10 +11,17 @@ export class HeaderComponent implements OnInit {
   @Input() collapsed = false;
   @Input() screenWidth = 0;
 
+  canShowSearchOverlay = false;
+
 
   constructor() {}
+  @HostListener('window:resize', ['$event'])
+  onResize(event:any) {
+    this.checkCanShowSearchOverlay(window.innerWidth)
+  }
+
   ngOnInit(): void {
-    
+    this.checkCanShowSearchOverlay(window.innerWidth)
   }
 
   getHeadClass(): string {
@@ -25,6 +32,15 @@ export class HeaderComponent implements OnInit {
       styleClass = 'head-md-screen';
     }
      return styleClass
+  }
+
+  checkCanShowSearchOverlay(innerWidth: number):void {
+    if(innerWidth < 845) {
+      this.canShowSearchOverlay = true;
+    } else {
+      this.canShowSearchOverlay = false
+    }
+
   }
 
 }
