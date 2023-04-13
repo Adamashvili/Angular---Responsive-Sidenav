@@ -38,6 +38,19 @@
   top: 0;
   color: #74788d;
 }
+.head .head-content .head-content-left .search-container .search-menu-btn {
+  font-size: 18px;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  outline: 0;
+}
+.head .head-content .head-content-left .search-container .search-menu-btn:hover,
+.head .head-content .head-content-left .search-container .search-menu-btn:focus {
+  color: #699dfa;
+}
 .head .head-content .head-content-right {
   display: flex;
   align-items: center;

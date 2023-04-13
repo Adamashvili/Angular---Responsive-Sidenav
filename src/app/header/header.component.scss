@@ -44,6 +44,21 @@
                         color: #74788d;
                     }
                 }
+
+                .search-menu-btn {
+                    font-size: 18px;
+                    height: 42px;
+                    width: 42px;
+                    cursor: pointer;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    outline: 0;
+                }
+
+                .search-menu-btn:hover,
+                .search-menu-btn:focus {
+                    color: #699dfa;
+                }
             }
         }
 
