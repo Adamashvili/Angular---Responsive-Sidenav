@@ -213,3 +213,28 @@
 
 
  }
+
+ .overlay-language {
+    padding: 0.5rem 0;
+    ul {
+        list-style: none;
+        width: 10rem;
+
+        li {
+            padding: 0.35rem 1.5rem;
+            font-size: 14px;
+            font-weight: 400;
+            color: #495057;
+            cursor: pointer;
+
+            img {
+                margin-right: 0.6rem;
+                height: 12px;
+            }
+        }
+
+        li:hover {
+            background: #eff2f3;
+        }
+    }
+ }

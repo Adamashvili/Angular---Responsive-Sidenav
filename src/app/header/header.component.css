@@ -193,4 +193,26 @@
   padding: 0.47rem 0.75rem;
   border-radius: 0.25rem;
 }
+
+.overlay-language {
+  padding: 0.5rem 0;
+}
+.overlay-language ul {
+  list-style: none;
+  width: 10rem;
+}
+.overlay-language ul li {
+  padding: 0.35rem 1.5rem;
+  font-size: 14px;
+  font-weight: 400;
+  color: #495057;
+  cursor: pointer;
+}
+.overlay-language ul li img {
+  margin-right: 0.6rem;
+  height: 12px;
+}
+.overlay-language ul li:hover {
+  background: #eff2f3;
+}
 /*# sourceMappingURL=header.component.css.map */
