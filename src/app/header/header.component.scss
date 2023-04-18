@@ -95,7 +95,7 @@
 
                     .head-menu-item-btn:hover,
                     .head-menu-item-btn:focus {
-                        background: #eff2f3;
+                        // background: #eff2f3;
                         .menu-icon {
                             color: #699dfa;
                         }
@@ -294,3 +294,47 @@
         }
     }
  }
+
+ .overlay-user {
+    ul {
+        padding: 0.5rem 0;
+        list-style: none;
+        width: 10rem;
+
+        li {
+            padding: 0.35rem 1.5rem;
+            font-size: 14px;
+            font-weight: 400;
+            color: #495057;
+            cursor: pointer;
+
+            .icon {
+                margin-right: 0.6rem;
+
+            }
+        }
+
+        li:hover {
+            background: #eff2f3;
+        }
+
+    }
+ }
+
+ .ripple {
+    background-position: center;
+    background-color: #fff;
+    transition: background 0.8s;
+ }
+
+ .ripple:hover,
+ .ripple:focus {
+    background: #eff2f3 radial-gradient(circle,transparent 1%, #eff2f3 1%)
+    center/15000%;
+ }
+
+ .ripple:active {
+    background-color: #bec2cd;
+    background-size: 100%;
+    transition: background 0s;
+}

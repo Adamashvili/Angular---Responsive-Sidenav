@@ -1,9 +1,141 @@
-<h1>Dashboard</h1>
+<h2>Dashboard</h2>
+
+<div [ngClass]="getClass()">
+    <div class="col-left">
+        <div class="card welcome-card">
+            <div class="card-head welcome-head-container">
+                <div class="col-left">
+                    <div>Welcome Back !</div>
+                    <p>Angular Dashboard</p>
+                </div>
+                <div class="col-right">
+                    <img [src]="'assets/profile-bg-3.png'" alt="" >
+                </div>
+            </div>
+            <div class="card-body welcome-body-container">
+                <div class="col-left">
+                    <div class="avatar">
+                        <img [src]="'assets/user3.jpg'" alt="">
+                    </div>
+                    <div class="name">Irakli Adamashvili</div>
+                    <p>Web Developer</p>
+                </div>
+                <div class="col-right">
+                    <div class="performance-container">
+                        <div class="performance">
+                            <div>Performance</div>
+                            <div>80%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="view-profile">
+                        <button>View profile
+                            <i class="far fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col task-col">
+        <div class="task">
+            <span class="bar completed"></span>
+            <div class="details">
+                <div>Completed</div>
+                <p>6 tasks</p>
+            </div>
+            <i class="far fa-pen edit"></i>
+        </div>
+        <div class="task">
+            <span class="bar active"></span>
+            <div class="details">
+                <div>Active</div>
+                <p>1 task</p>
+            </div>
+            <i class="far fa-pen edit"></i>
+        </div>
+        <div class="task">
+            <span class="bar new"></span>
+            <div class="details">
+                <div>Assigned</div>
+                <p>12 tasks</p>
+            </div>
+            <i class="far fa-pen edit"></i>
+        </div>
+        <button>
+            <i class="far fa-pus"></i>
+            Create New Group
+        </button>
+    </div>
+</div>
 
 <div class="card">
-    <div class="card-head"> Lorem ipsum - Dashboard</div>
+    <div class="card-head">PROFFESIONAL SKILLS</div>
     <div class="card-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione temporibus repellat dolores numquam id eligendi nesciunt nostrum aliquam sed est quisquam fuga eos, consequuntur suscipit perspiciatis et laboriosam earum aliquid.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel saepe obcaecati animi minima fugiat facere molestias repellendus maiores eum nisi, iure tempore inventore neque et! Alias reprehenderit repudiandae amet aliquam!
-        </div>
+        HTML 5 <br> <br>
+        CSS3 / SCSS / Bootstrap 5 <br>  <br>
+        UI/UX  <br> <br>
+        JavaScript / DOM / Fetch, AJAX, JSON <br> <br>
+        Library: React <br> <br>
+        FrameWork: TypeScript, Angular 15
+
+
+    </div>
 </div>
+
+<div class="card">
+    <div class="card-head">LANGUAGES</div>
+    <div class="card-body">
+        <p><b>Georgian</b>: Native</p> <br>
+        <p><b>English</b>: Upper-intermediate (B2 Certificate)</p> <br>
+        <p><b>Russian</b>: Intermediate</p>
+
+
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-head">WORKING EXPERIENCE</div>
+
+</div>
+
+
+<div class="card">
+    <div class="card-head">Receptionist -  Hotel  “KMM”</div>
+    <div class="card-body">
+        10.05.2022-01.10.2022 <br> <br>
+ Reception and accommodation of guests; Accepting reservations; answering telephone calls and providing information; performance of management tasks; settlement with the guest; performing various administrative tasks; updating and monitoring of the hotel's internal information programs;
+
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-head">Georgian Medical Holding </div>
+    <div class="card-body">
+        01.05.2021 – 01.05.2022 <br> <br>
+<b>Quarantine Group Operator</b> <br>
+In case of a Covid-confirmed citizen's desire to transfer to a Covid-hotel, contacting them, studying the health status in detail, verifying the validity of the rapid/PCR test at the NCDC base, providing transportation in case of satisfaction. <br> <br>
+<b>Laboratory Research Operator</b> <br>
+ Organization of instrumental/laboratory tests for the citizens confirmed with Covid-19 with the representative of the clinic.  <br> <br>
+<b>Representative of the Monitoring Service</b> <br>
+Monitoring of Covid-confirmed citizens staying in the apartment. Ensuring continuous doctor-patient communication. In case of a defect, contact the representative of the clinic and eliminate the problem in time.  <br>  <br>
+
+<b>1522 (Anti-covid vaccination hotline) Operator</b>  <br>
+Creating a covid vaccination reservation on the booking.moh.gov.ge portal; Noting the problem of connecting with the doctor of the Kovid family, noting the data of those who want vaccination (people with disability) at the apartment; Testing on the flat/getting transport data for testing. Provision of general information related to the coronavirus to citizens.
+
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-head">Central University Clinic named after Academician Nikoloz Kipshidze</div> <br>
+    <div class="card-body">
+       <b>Anti COVID-19 Vaccination -  Nurse Vaccinator</b>  <br> <br>
+        01.08.2021-01.11.2021 <br> <br>
+        Vaccinating people with Covid-vaccine (Pfizer, AstraZeneca, Sinovac, Sinopharm)
+        
+
+    </div>
+</div>
+

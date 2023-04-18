@@ -60,12 +60,12 @@ export const userItems = [
     },
 
     {
-        icon: 'far fa-unlock',
-        label: 'Lock',
+        icon: 'far fa-unlock-alt',
+        label: 'Lock screen',
     },
 
     {
-        icon: 'far fa-power',
+        icon: 'far fa-power-off',
         label: 'Logout',
     },
 ]

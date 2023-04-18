@@ -1,4 +1,177 @@
-h1 {
+h2 {
   color: #495057;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row .col-left {
+  width: 65%;
+}
+.row .col {
+  margin: 20px 0 0 20px;
+  width: 35%;
+}
+
+.row-md {
+  display: flex;
+  flex-direction: column;
+}
+.row-md .col-left {
+  width: 100%;
+}
+
+.task-col .task {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  color: #495057;
+  box-shadow: 0 0.25rem 0.5rem #e6edef;
+}
+.task-col .task .edit {
+  margin: auto 0 auto auto;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.task-col .task .bar {
+  width: 5px;
+  height: 45px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.task-col .task .bar.completed {
+  background: rgb(238, 139, 9);
+}
+.task-col .task .bar.active {
+  background: rgb(9, 127, 238);
+}
+.task-col .task .bar.new {
+  background: rgb(130, 189, 243);
+}
+.task-col .task .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.task-col .task .details p {
+  color: #74788d;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.task-col button {
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  color: #fff;
+  background-color: #556ee6;
+  padding: 12px 17px;
+  border-radius: 5px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.welcome-card {
+  border-radius: 0.25rem;
+  max-width: 740px;
+}
+.welcome-card .welcome-head-container {
+  background-color: rgba(85, 110, 230, 0.2509803922);
+  color: #556ee6;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.welcome-card .welcome-head-container .col-left {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+.welcome-card .welcome-head-container .col-left p {
+  font-size: 14px;
+  margin-top: 7px;
+  font-weight: normal;
+}
+.welcome-card .welcome-head-container .col-right {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+.welcome-card .welcome-head-container .col-right img {
+  width: 65%;
+  height: auto;
+}
+.welcome-card .welcome-body-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.welcome-card .welcome-body-container .col-left {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.welcome-card .welcome-body-container .col-left .avatar {
+  margin-top: -36px;
+  margin-bottom: 1.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.welcome-card .welcome-body-container .col-left .avatar img {
+  border-radius: 50%;
+  padding: 0.25rem;
+  background-color: #f8f8fb;
+  border: 1px solid #f6f6f6;
+  max-width: 100%;
+  height: auto;
+}
+.welcome-card .welcome-body-container .col-left .name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.welcome-card .welcome-body-container .col-left p {
+  color: #74788d;
+  font-size: 14px;
+}
+.welcome-card .welcome-body-container .col-right {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+.welcome-card .welcome-body-container .col-right .performance-container .performance {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #74788d;
+}
+.welcome-card .welcome-body-container .col-right .performance-container .progress {
+  display: flex;
+  height: 7px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+.welcome-card .welcome-body-container .col-right .performance-container .progress .progress-bar {
+  width: 80%;
+  background-color: rgb(50, 248, 60);
+}
+.welcome-card .welcome-body-container .col-right .view-profile {
+  margin-top: 1rem;
+}
+.welcome-card .welcome-body-container .col-right .view-profile button {
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  color: #fff;
+  background-color: #556ee6;
+  padding: 12px 17px;
+  border-radius: 5px;
+}
+.welcome-card .welcome-body-container .col-right .view-profile button .fa-arrow-right {
+  margin-left: 10px;
 }
 /*# sourceMappingURL=dashboard.component.css.map */
